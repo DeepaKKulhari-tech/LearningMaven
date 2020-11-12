@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+      <class name="MavenStructuredFramework.SeleniumTest">
+        <test-method status="PASS" signature="SeleniumTest01()[pri:0, instance:MavenStructuredFramework.SeleniumTest@6093dd95]" name="SeleniumTest01" duration-ms="11" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTest01 -->
+        <test-method status="PASS" signature="SeleniumTest02()[pri:0, instance:MavenStructuredFramework.SeleniumTest@6093dd95]" name="SeleniumTest02" duration-ms="1" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SeleniumTest02 -->
+      </class> <!-- MavenStructuredFramework.SeleniumTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
