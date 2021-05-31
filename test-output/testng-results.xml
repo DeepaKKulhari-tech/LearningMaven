@@ -2,20 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="33" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+  <suite name="Default suite" duration-ms="15707" started-at="2021-04-26T10:48:04Z" finished-at="2021-04-26T10:48:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="33" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
-      <class name="MavenStructuredFramework.SeleniumTest">
-        <test-method status="PASS" signature="SeleniumTest01()[pri:0, instance:MavenStructuredFramework.SeleniumTest@6093dd95]" name="SeleniumTest01" duration-ms="11" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+    <test name="Default test" duration-ms="15707" started-at="2021-04-26T10:48:04Z" finished-at="2021-04-26T10:48:20Z">
+      <class name="MavenStructuredFramework.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:MavenStructuredFramework.LoginTest@7fac631b]" name="setup" is-config="true" duration-ms="8296" started-at="2021-04-26T10:48:04Z" finished-at="2021-04-26T10:48:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SeleniumTest01 -->
-        <test-method status="PASS" signature="SeleniumTest02()[pri:0, instance:MavenStructuredFramework.SeleniumTest@6093dd95]" name="SeleniumTest02" duration-ms="1" started-at="2020-10-25T15:27:38Z" finished-at="2020-10-25T15:27:38Z">
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freeCRMLogoTest()[pri:0, instance:MavenStructuredFramework.LoginTest@7fac631b]" name="freeCRMLogoTest" duration-ms="336" started-at="2021-04-26T10:48:13Z" finished-at="2021-04-26T10:48:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SeleniumTest02 -->
-      </class> <!-- MavenStructuredFramework.SeleniumTest -->
+        </test-method> <!-- freeCRMLogoTest -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:MavenStructuredFramework.LoginTest@7fac631b]" name="setup" is-config="true" duration-ms="7030" started-at="2021-04-26T10:48:13Z" finished-at="2021-04-26T10:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="freeCrmTitleTest()[pri:0, instance:MavenStructuredFramework.LoginTest@7fac631b]" name="freeCrmTitleTest" duration-ms="18" started-at="2021-04-26T10:48:20Z" finished-at="2021-04-26T10:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeCrmTitleTest -->
+        <test-method status="PASS" signature="tear()[pri:0, instance:MavenStructuredFramework.LoginTest@7fac631b]" name="tear" is-config="true" duration-ms="1371" started-at="2021-04-26T10:48:20Z" finished-at="2021-04-26T10:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- MavenStructuredFramework.LoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

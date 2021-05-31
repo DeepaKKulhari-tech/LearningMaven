@@ -1,0 +1,19 @@
+2021-04-26 16:18:09,637  INFO [main] LoginTest:25 - launching chrome broswer
+2021-04-26 16:18:13,039  INFO [main] LoginTest:32 - entering application URL
+2021-04-26 16:18:13,040  WARN [main] LoginTest:33 - Hey this just a warning message
+2021-04-26 16:18:13,040 FATAL [main] LoginTest:34 - hey this is just fatal error message
+2021-04-26 16:18:13,040 DEBUG [main] LoginTest:35 - this is debug message
+2021-04-26 16:18:13,046  INFO [main] LoginTest:54 - ****************************** starting test case *****************************************
+2021-04-26 16:18:13,046  INFO [main] LoginTest:55 - ****************************** freemCRMLogoTest *****************************************
+2021-04-26 16:18:13,376  INFO [main] LoginTest:58 - ****************************** ending test case *****************************************
+2021-04-26 16:18:13,376  INFO [main] LoginTest:59 - ****************************** freemCRMLogoTest *****************************************
+2021-04-26 16:18:17,159  INFO [main] LoginTest:25 - launching chrome broswer
+2021-04-26 16:18:20,409  INFO [main] LoginTest:32 - entering application URL
+2021-04-26 16:18:20,409  WARN [main] LoginTest:33 - Hey this just a warning message
+2021-04-26 16:18:20,410 FATAL [main] LoginTest:34 - hey this is just fatal error message
+2021-04-26 16:18:20,410 DEBUG [main] LoginTest:35 - this is debug message
+2021-04-26 16:18:20,412  INFO [main] LoginTest:40 - ****************************** starting test case *****************************************
+2021-04-26 16:18:20,412  INFO [main] LoginTest:41 - ****************************** freeCrmTitleTest *****************************************
+2021-04-26 16:18:20,428  INFO [main] LoginTest:47 - ****************************** ending test case *****************************************
+2021-04-26 16:18:20,428  INFO [main] LoginTest:48 - ****************************** freeCrmTitleTest *****************************************
+2021-04-26 16:18:21,837  INFO [main] LoginTest:65 - ****************************** Browser is closed *****************************************

@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--1358595315\testng-customsuite.xml</span>
+                    <span>C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--713179694\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,12 +102,12 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MavenStructuredFramework.SeleniumTest" hash-for-method="SeleniumTest01">SeleniumTest01</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MavenStructuredFramework.LoginTest" hash-for-method="freeCRMLogoTest">freeCRMLogoTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MavenStructuredFramework.SeleniumTest" hash-for-method="SeleniumTest02">SeleniumTest02</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="MavenStructuredFramework.LoginTest" hash-for-method="freeCrmTitleTest">freeCrmTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -125,21 +125,21 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">MavenStructuredFramework.SeleniumTest</span>
+              <span class="class-name">MavenStructuredFramework.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="SeleniumTest01">
-                  </a> <!-- SeleniumTest01 -->
-                  <span class="method-name">SeleniumTest01</span>
+                  <a name="freeCRMLogoTest">
+                  </a> <!-- freeCRMLogoTest -->
+                  <span class="method-name">freeCRMLogoTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="SeleniumTest02">
-                  </a> <!-- SeleniumTest02 -->
-                  <span class="method-name">SeleniumTest02</span>
+                  <a name="freeCrmTitleTest">
+                  </a> <!-- freeCrmTitleTest -->
+                  <span class="method-name">freeCrmTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -147,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--1358595315\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\deepak.kumar\AppData\Local\Temp\testng-eclipse--713179694\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -156,7 +156,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;MavenStructuredFramework.SeleniumTest&quot;/&gt;
+      &lt;class name=&quot;MavenStructuredFramework.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -198,18 +198,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'SeleniumTest01')
-data.setCell(0, 2, 'MavenStructuredFramework.SeleniumTest')
-data.setCell(0, 3, 11);
+data.setCell(0, 1, 'freeCRMLogoTest')
+data.setCell(0, 2, 'MavenStructuredFramework.LoginTest')
+data.setCell(0, 3, 336);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'SeleniumTest02')
-data.setCell(1, 2, 'MavenStructuredFramework.SeleniumTest')
-data.setCell(1, 3, 1);
+data.setCell(1, 1, 'freeCrmTitleTest')
+data.setCell(1, 2, 'MavenStructuredFramework.LoginTest')
+data.setCell(1, 3, 18);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 12 ms</span>
+              <span class="suite-total-time">Total running time: 354 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -235,15 +235,27 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">MavenStructuredFramework.SeleniumTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">SeleniumTest01</span>
+              <div class="chronological-class-name">MavenStructuredFramework.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- test-method -->
+              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">SeleniumTest02</span>
-                <span class="method-start">13 ms</span>
+                <span class="method-name">freeCRMLogoTest</span>
+                <span class="method-start">8296 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">8635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">freeCrmTitleTest</span>
+                <span class="method-start">15665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">tear</span>
+                <span class="method-start">15721 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
